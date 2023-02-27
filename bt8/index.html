@@ -1,0 +1,72 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo bảng</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+    h1 {
+    color: orange;
+    text-align: center;
+}
+
+table, td, th {
+    border: 1px solid purple;
+    padding: 5px;
+}
+td:first-child {
+    width: 100px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #CC6600;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #FFEDCA;
+}
+</style>
+<body>
+
+
+    <h1> Các món ngon Hà Nội </h1>
+    
+    <div>
+        <img src="../bt7/images/flower.jpeg" alt="Flower" width="200px" style="float: left">
+        <!-- <div style="width: 200px; height: 500px; background-color: red; display: inline-block; float:left "></div> -->
+        <!-- <aside style="width: 200px; height: 500px; background-color: red; float:left"></aside> -->
+        <table>
+            <tr>
+                <th>STT</th>
+                <th>Tên món ăn</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Bánh cuốn Thanh Tri</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Xôi Hà Nội</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Bánh cuốn Thanh Tri</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Xôi Hà Nội</td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+
+</html>
